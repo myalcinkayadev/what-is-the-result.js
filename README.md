@@ -27,3 +27,11 @@
 ```javascript
 10 && 01
 ```
+
+```javascript
+10 || 01
+```
+
+```javascript
+let sisi; sisi?.[42];
+```
