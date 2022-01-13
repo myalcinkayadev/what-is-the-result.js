@@ -9,6 +9,34 @@
 ```
 
 ```javascript
+![]
+```
+
+```javascript
+!""
+```
+
+```javascript
+undefined == null
+```
+
+```javascript
+NaN === NaN
+```
+
+```javascript
+typeof undefined
+```
+
+```javascript
+typeof null
+```
+
+```javascript
+typeof NaN
+```
+
+```javascript
 0 ?? 1
 ```
 
