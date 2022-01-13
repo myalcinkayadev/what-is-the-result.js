@@ -63,3 +63,7 @@ typeof NaN
 ```javascript
 let sisi; sisi?.[42];
 ```
+
+```javascript
+0.1 + 0.2
+```
