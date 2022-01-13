@@ -61,9 +61,15 @@ typeof NaN
 ```
 
 ```javascript
+0.1 + 0.2
+```
+
+```javascript
 let sisi; sisi?.[42];
 ```
 
 ```javascript
-0.1 + 0.2
+const deadSocrates = { role: 'gadfly', location: 'athens' };
+const { role, ...unknownSocrates } = deadSocrates;
+unknownSocrates 
 ```
