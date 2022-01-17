@@ -65,14 +65,16 @@ typeof NaN
 ```
 
 ```javascript
+10 == [10]
+```
+
+```javascript
 10 / [10]
 ```
 
 ```javascript
 10 * []
 ```
-
-
 
 ```javascript
 let sisi; sisi?.[42];
