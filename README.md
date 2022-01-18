@@ -65,6 +65,10 @@ typeof NaN
 ```
 
 ```javascript
+undefined += 1
+```
+
+```javascript
 10 == [10]
 ```
 
@@ -74,6 +78,11 @@ typeof NaN
 
 ```javascript
 10 * []
+```
+
+
+```javascript
+undefined = 1
 ```
 
 ```javascript
