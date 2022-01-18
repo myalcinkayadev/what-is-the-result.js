@@ -86,6 +86,12 @@ undefined = 1
 ```
 
 ```javascript
+let myStr = "Walk";
+myStr[0] = "T";
+myStr;
+```
+
+```javascript
 let sisi; sisi?.[42];
 ```
 
