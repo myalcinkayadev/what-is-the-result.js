@@ -119,3 +119,13 @@ const coordinates = [[62.0842195, 9.7042283]];
 const { 0: riverSide, 1: mountainView = [61.627706, 8.3809468] } = coordinates;
 mountainView
 ```
+
+```javascript
+function getEmoji(n, i = 10, o = n, acc = []) {
+  return (n < o + i ? getEmoji(n + 1, i, o, [String.fromCodePoint(n), ...acc]) : acc);
+}
+getEmoji(127761)
+getEmoji(127761, 5)
+getEmoji(127761, 0, 127781)
+
+```
