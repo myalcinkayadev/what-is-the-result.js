@@ -122,7 +122,7 @@ mountainView
 
 ```javascript
 function getEmoji(n, i = 10, o = n, acc = []) {
-  return (n < o + i ? getEmoji(n + 1, i, o, [String.fromCodePoint(n), ...acc]) : acc);
+  return (n < o + i ? getEmoji(n + 1, i, o, [ ...acc, String.fromCodePoint(n)]) : acc);
 }
 getEmoji(127761)
 getEmoji(127761, 5)
