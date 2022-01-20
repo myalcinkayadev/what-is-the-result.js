@@ -109,6 +109,11 @@ myData;
 ```
 
 ```javascript
+let a = 8, b = 6;
+[a, b] = [b, a]
+```
+
+```javascript
 const deadSocrates = { role: 'gadfly', location: 'athens' };
 const { role, ...unknownSocrates } = deadSocrates;
 unknownSocrates 
