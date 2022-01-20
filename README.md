@@ -120,6 +120,14 @@ unknownSocrates
 ```
 
 ```javascript
+const [l, r, f, ...kaboom] = [4, 8, 15, 16, 23, 42]
+l;
+r;
+f;
+kaboom;
+```
+
+```javascript
 const coordinates = [[62.0842195, 9.7042283]];
 const { 0: riverSide, 1: mountainView = [61.627706, 8.3809468] } = coordinates;
 mountainView
