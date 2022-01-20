@@ -149,6 +149,6 @@ getEmoji(127761, 0, 127781)
 ```javascript
 const eurekaReject = `Give yourself time. Ideas'll come. 
 Life'll shake you, roll you, maybe embrace you. The music'll find you.`;
-const eureka = () => new Promise((resolve, reject) => { reject(eurekaReject) });
-eureka();
+const eureka = (rejectMessage) => new Promise((resolve, reject) => { reject(rejectMessage) });
+eureka(eurekaReject);
 ```
