@@ -121,6 +121,10 @@ mountainView
 ```
 
 ```javascript
+Math.max([0, 1])
+```
+
+```javascript
 function getEmoji(n, i = 10, o = n, acc = []) {
   return (n < o + i ? getEmoji(n + 1, i, o, [ ...acc, String.fromCodePoint(n)]) : acc);
 }
