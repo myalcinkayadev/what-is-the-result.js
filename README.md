@@ -146,6 +146,12 @@ getEmoji(127761, 5)
 getEmoji(127761, 0, 127781)
 ```
 
+``` javascript
+const twice = (f, x) => f(f(x));
+const addThree = (x) => x + 3;
+twice(addThree, 2);
+```
+
 ```javascript
 const eurekaReject = `Give yourself time. Ideas'll come. 
 Life'll shake you, roll you, maybe embrace you. The music'll find you.`;
