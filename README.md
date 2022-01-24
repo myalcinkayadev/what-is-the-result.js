@@ -134,6 +134,17 @@ mountainView
 ```
 
 ```javascript
+const bestLocation = new Proxy({ latitude: 62.0842195, longitude: 9.7042283 }, {
+  get: function(object, property) {
+    return property in object ? object[property] : "unknown";
+  }
+});
+bestLocation.latitude;
+bestLocation.longitude;
+bestLocation.name;
+```
+
+```javascript
 Math.max([0, 1])
 ```
 
