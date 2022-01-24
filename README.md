@@ -128,6 +128,11 @@ kaboom;
 ```
 
 ```javascript
+// Mary Poppins (1964) - "Supercalifragilisticexpialidocious"
+[...'Supercalifragilisticexpialidocious'].reduce((prv, cur) => cur + prv);
+```
+
+```javascript
 const coordinates = [[62.0842195, 9.7042283]];
 const { 0: riverSide, 1: mountainView = [61.627706, 8.3809468] } = coordinates;
 mountainView
