@@ -120,6 +120,14 @@ unknownSocrates
 ```
 
 ```javascript
+const deadSocrates = { role: 'gadfly', location: "" };
+deadSocrates.role ||= "mýops"
+deadSocrates.location ||= 'athens';
+deadSocrates.role
+deadSocrates.location
+```
+
+```javascript
 const [l, r, f, ...kaboom] = [4, 8, 15, 16, 23, 42]
 l;
 r;
