@@ -174,3 +174,16 @@ Life'll shake you, roll you, maybe embrace you. The music'll find you.`;
 const eureka = (rejectMessage) => new Promise((resolve, reject) => { reject(rejectMessage) });
 eureka(eurekaReject);
 ```
+
+``` javascript
+function Universe() {}
+Universe.prototype = {
+    earth: 'Pale Blue Dot'
+}
+const gaia = new Universe();
+
+gaia instanceof Universe;
+gaia.constructor === Universe;
+gaia instanceof Object;
+gaia.constructor === Object;
+```
