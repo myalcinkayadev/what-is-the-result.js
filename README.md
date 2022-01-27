@@ -195,3 +195,11 @@ gaia.constructor === Universe;
 gaia instanceof Object;
 gaia.constructor === Object;
 ```
+
+```javascript
+function destroyer() {
+  const [arr, ...rest] = arguments;
+  return arr.filter(v => !rest.includes(v));
+}
+destroyer(['JAK2', 'V617F', 'Exon 12'], 'V617F', 'Exon 12');
+```
