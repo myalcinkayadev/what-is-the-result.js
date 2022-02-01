@@ -203,3 +203,31 @@ function destroyer() {
 }
 destroyer(['JAK2', 'V617F', 'Exon 12'], 'V617F', 'Exon 12');
 ```
+
+```javascript
+function Follower(name, race, rank) {
+	this.name = name;
+	this.race = race;
+	this.rank = rank;
+}
+
+Follower.prototype.speak = function() {
+	return `${this.name}: If you wish to hunt with me, your feet need to be quick, and your eyes quicker.`;
+}
+
+Follower.prototype.toString = function() {
+	return `[Name: ${this.name}] [Race: ${this.race.join('|')}] [Rank: ${this.rank}]`;
+}
+
+function fresh() {
+    const obj = {};
+    const [constructor, ...args] = arguments;
+    Object.setPrototypeOf(obj, constructor.prototype);
+    return constructor.apply(obj, args) || obj;
+}
+
+const aela = new Follower('Aela the Huntress', ['Nord','Werewolf'], 'Expert');
+const aela2 = fresh(Follower, 'Aela the Huntress', ['Nord','Werewolf'], 'Expert');
+
+aela.speak() === aela2.speak();
+```
