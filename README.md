@@ -86,6 +86,10 @@ undefined = 1
 ```
 
 ```javascript
+parseInt(0.00000003);
+```
+
+```javascript
 let myStr = "Walk";
 myStr[0] = "T";
 myStr;
