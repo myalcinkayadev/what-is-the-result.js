@@ -86,7 +86,7 @@ undefined = 1
 ```
 
 ```javascript
-parseInt(0.00000003);
+parseInt(0.0000003);
 ```
 
 ```javascript
