@@ -90,6 +90,10 @@ parseInt(0.0000003);
 ```
 
 ```javascript
+Math.max([0, 1])
+```
+
+```javascript
 let myStr = "Walk";
 myStr[0] = "T";
 myStr;
@@ -110,6 +114,14 @@ const myArray = [
 
 const myData = myArray[3][0][2];
 myData;
+```
+
+```javascript
+const asi = () => {
+    return 
+    {}
+}
+asi();
 ```
 
 ```javascript
@@ -159,10 +171,6 @@ const bestLocation = new Proxy({ latitude: 62.0842195, longitude: 9.7042283 }, {
 bestLocation.latitude;
 bestLocation.longitude;
 bestLocation.name;
-```
-
-```javascript
-Math.max([0, 1])
 ```
 
 ```javascript
