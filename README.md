@@ -245,7 +245,7 @@ aela.speak() === aela2.speak();
 ```
 
 ```javascript
-What is the order of execution and why?
+// What is the order of execution and why?
 
 setTimeout(() => {
   console.log("setTimeout executed - 1");
