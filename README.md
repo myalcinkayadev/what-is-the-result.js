@@ -262,4 +262,8 @@ setTimeout(() => {
 Promise.resolve().then(() => {
   console.log("Promise resolved - 2");
 });
+
+for (let i = 0; i < 5; i++) {
+    console.log(`It was run ${i + 1} times`);
+}
 ```
