@@ -243,3 +243,23 @@ const aela2 = fresh(Follower, 'Aela the Huntress', ['Nord','Werewolf'], 'Expert'
 
 aela.speak() === aela2.speak();
 ```
+
+```javascript
+What is the order of execution and why?
+
+setTimeout(() => {
+  console.log("setTimeout executed - 1");
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log("Promise resolved - 1");
+});
+
+setTimeout(() => {
+  console.log("setTimeout executed - 2");
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log("Promise resolved - 2");
+});
+```
